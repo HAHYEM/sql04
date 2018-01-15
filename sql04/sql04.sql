@@ -16,7 +16,7 @@ where (department_id, salary)in (select department_id,
                                   group by department_id)
 order by salary desc;
 
---문제3
+--문제3d
 --다시 한번 봐야함
 select j.job_title,
        sum(salary)
